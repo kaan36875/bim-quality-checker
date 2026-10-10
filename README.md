@@ -8,6 +8,10 @@ Available on the [Autodesk App Store](#) | [Privacy Policy](PRIVACY.md)
   <a href="https://www.youtube.com/watch?v=dBws_4v6m7E">Video Demo</a>
 </p>
 
+<p align="center">
+  <img src="installer/revit-checkresult.png" width="100%" alt="3D colour-coded diff view" />
+</p>
+
 ## Features
 
 - **15 Built-in Rules** across three categories: Naming Conventions, Required Parameters, and Model Health
