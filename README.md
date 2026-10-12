@@ -1,4 +1,4 @@
-# Revit Quality Checker
+# BIM Quality Checker
 
 Automated BIM model quality checker plugin for Autodesk Revit. Validates models against configurable rules, provides a quality score, and exports detailed reports.
 
@@ -57,8 +57,8 @@ Download from the [Autodesk App Store](#) and follow the installer instructions.
 
 ### Manual Installation
 
-1. Download the latest release from [Releases](https://github.com/kaan36875/revit-quality-checker/releases)
-2. Extract `RevitQualityChecker.bundle` to `%ProgramData%\Autodesk\ApplicationPlugins\`
+1. Download the latest release from [Releases](https://github.com/kaan36875/bim-quality-checker/releases)
+2. Extract `BIMQualityChecker.bundle` to `%ProgramData%\Autodesk\ApplicationPlugins\`
 3. Restart Revit
 
 ## Usage
@@ -99,7 +99,7 @@ dotnet test tests/Core.Tests
 powershell -ExecutionPolicy Bypass -File installer\build-bundle.ps1
 ```
 
-Output: `installer/output/RevitQualityChecker.bundle.zip`
+Output: `installer/output/BIMQualityChecker.bundle.zip`
 
 ## Project Structure
 
@@ -125,8 +125,8 @@ Create a JSON file following the schema in `rules/ruleset-schema.json` and load 
 
 ## Uninstallation
 
-1. Delete `%ProgramData%\Autodesk\ApplicationPlugins\RevitQualityChecker.bundle\`
-2. *(Optional)* Delete settings: `%AppData%\RevitQualityChecker\`
+1. Delete `%ProgramData%\Autodesk\ApplicationPlugins\BIMQualityChecker.bundle\`
+2. *(Optional)* Delete settings: `%AppData%\BIMQualityChecker\`
 
 ## License
 
