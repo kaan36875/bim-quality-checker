@@ -45,4 +45,4 @@ Write-Host "  Folder: $bundleDir"
 Write-Host "  ZIP:    $zipPath"
 Write-Host ""
 Write-Host "To install manually, copy the '$bundleName' folder to:" -ForegroundColor Yellow
-Write-Host '  %ProgramData%\Autodesk\ApplicationPlugins\'
+Write-Host '  %AppData%\Autodesk\ApplicationPlugins\'

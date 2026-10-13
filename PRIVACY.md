@@ -19,7 +19,7 @@ Your Revit model data is processed in-memory during a quality check and is never
 ## Revoking Consent and Data Deletion
 
 To remove all data associated with this plugin:
-1. Uninstall the plugin by deleting the `BIMQualityChecker.bundle` folder from `%ProgramData%\Autodesk\ApplicationPlugins\`
+1. Uninstall the plugin by deleting the `BIMQualityChecker.bundle` folder from `%AppData%\Autodesk\ApplicationPlugins\`
 2. Delete the settings folder at `%AppData%\BIMQualityChecker\`
 
 No account, registration, or consent is required to use this plugin.

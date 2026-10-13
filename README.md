@@ -58,7 +58,7 @@ Download from the [Autodesk App Store](#) and follow the installer instructions.
 ### Manual Installation
 
 1. Download the latest release from [Releases](https://github.com/kaan36875/bim-quality-checker/releases)
-2. Extract `BIMQualityChecker.bundle` to `%ProgramData%\Autodesk\ApplicationPlugins\`
+2. Extract `BIMQualityChecker.bundle` to `%AppData%\Autodesk\ApplicationPlugins\` (or `C:\Program Files\Autodesk\ApplicationPlugins\` for all users)
 3. Restart Revit
 
 ## Usage
@@ -125,7 +125,7 @@ Create a JSON file following the schema in `rules/ruleset-schema.json` and load 
 
 ## Uninstallation
 
-1. Delete `%ProgramData%\Autodesk\ApplicationPlugins\BIMQualityChecker.bundle\`
+1. Delete `%AppData%\Autodesk\ApplicationPlugins\BIMQualityChecker.bundle\`
 2. *(Optional)* Delete settings: `%AppData%\BIMQualityChecker\`
 
 ## License

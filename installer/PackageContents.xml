@@ -7,6 +7,7 @@
   Description="BIM model quality checker with configurable rules, scoring, and HTML reports."
   Author="Kaan Beyazkilic"
   AutodeskProduct="Revit"
+  ProductType="Application"
 >
 
   <CompanyDetails
