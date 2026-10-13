@@ -9,7 +9,7 @@ Available on the [Autodesk App Store](#) | [Privacy Policy](PRIVACY.md)
 </p>
 
 <p align="center">
-  <img src="installer/revit-checkresult.png" width="100%" alt="3D colour-coded diff view" />
+  <img src="installer/result.png" width="100%" alt="Quality check results window" />
 </p>
 
 ## Features
@@ -27,7 +27,7 @@ Available on the [Autodesk App Store](#) | [Privacy Policy](PRIVACY.md)
 
 | Ribbon | Results | Settings | About |
 |--------|---------|----------|-------|
-| ![Ribbon](installer/revit-ribbon.png) | ![Results](installer/revit-checkresult.png) | ![Settings](installer/revit-settings.png) | ![About](installer/revit-about.png) |
+| ![Ribbon](installer/ribbon.png) | ![Results](installer/result.png) | ![Settings](installer/settings.png) | ![About](installer/about.png) |
 
 ## Quality Rules
 
