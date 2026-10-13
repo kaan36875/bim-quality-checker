@@ -1,7 +1,7 @@
 using System.Windows;
-using RevitQualityChecker.RevitAdapter.ViewModels;
+using BIMQualityChecker.RevitAdapter.ViewModels;
 
-namespace RevitQualityChecker.RevitAdapter.Views
+namespace BIMQualityChecker.RevitAdapter.Views
 {
     public partial class SettingsWindow : Window
     {

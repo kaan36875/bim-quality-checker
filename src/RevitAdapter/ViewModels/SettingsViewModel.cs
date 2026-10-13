@@ -3,9 +3,9 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
-using RevitQualityChecker.Core.Configuration;
+using BIMQualityChecker.Core.Configuration;
 
-namespace RevitQualityChecker.RevitAdapter.ViewModels
+namespace BIMQualityChecker.RevitAdapter.ViewModels
 {
     public class RuleToggleViewModel : INotifyPropertyChanged
     {

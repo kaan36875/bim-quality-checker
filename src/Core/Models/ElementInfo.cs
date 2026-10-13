@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace RevitQualityChecker.Core.Models
+namespace BIMQualityChecker.Core.Models
 {
     public class ElementInfo
     {

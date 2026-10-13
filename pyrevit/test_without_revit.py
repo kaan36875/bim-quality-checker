@@ -10,7 +10,7 @@ import os
 
 # Add the lib directory to path so we can import quality_checker
 lib_path = os.path.join(os.path.dirname(__file__),
-                        "RevitQualityChecker.extension", "lib")
+                        "BIMQualityChecker.extension", "lib")
 sys.path.insert(0, lib_path)
 
 from quality_checker.models import ElementInfo
@@ -67,7 +67,7 @@ def create_test_elements():
 
 def main():
     print("=" * 60)
-    print("RevitQualityChecker - Test Without Revit")
+    print("BIMQualityChecker - Test Without Revit")
     print("=" * 60)
 
     # Load rules

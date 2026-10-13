@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 
-namespace RevitQualityChecker.Core.Configuration
+namespace BIMQualityChecker.Core.Configuration
 {
     public class UserSettings
     {
@@ -13,7 +13,7 @@ namespace RevitQualityChecker.Core.Configuration
         private static string GetSettingsPath()
         {
             var appData = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-            var dir = Path.Combine(appData, "RevitQualityChecker");
+            var dir = Path.Combine(appData, "BIMQualityChecker");
             if (!Directory.Exists(dir))
                 Directory.CreateDirectory(dir);
             return Path.Combine(dir, "settings.json");

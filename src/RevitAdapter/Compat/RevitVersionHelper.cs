@@ -4,7 +4,7 @@ using System.Reflection;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 
-namespace RevitQualityChecker.RevitAdapter.Compat
+namespace BIMQualityChecker.RevitAdapter.Compat
 {
     /// <summary>
     /// Handles Revit API differences across versions using reflection.

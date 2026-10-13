@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace RevitQualityChecker.Core.Models
+namespace BIMQualityChecker.Core.Models
 {
     public class CheckReport
     {

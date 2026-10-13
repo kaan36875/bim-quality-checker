@@ -5,9 +5,9 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
 using System.Windows.Media;
-using RevitQualityChecker.Core.Models;
+using BIMQualityChecker.Core.Models;
 
-namespace RevitQualityChecker.RevitAdapter.ViewModels
+namespace BIMQualityChecker.RevitAdapter.ViewModels
 {
     public class RuleResultViewModel : INotifyPropertyChanged
     {

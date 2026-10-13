@@ -25,11 +25,6 @@ $pen.LineJoin = [System.Drawing.Drawing2D.LineJoin]::Round
 $g.DrawLine($pen, 28, 58, 48, 78)
 $g.DrawLine($pen, 48, 78, 92, 34)
 
-# "QC" text bottom right
-$font = New-Object System.Drawing.Font("Segoe UI", 18, [System.Drawing.FontStyle]::Bold)
-$textBrush = New-Object System.Drawing.SolidBrush([System.Drawing.Color]::FromArgb(180, 255, 255, 255))
-$g.DrawString("QC", $font, $textBrush, 62, 82)
-
 $g.Dispose()
 
 $outPath = Join-Path $PSScriptRoot "app-icon.png"

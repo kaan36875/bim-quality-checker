@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
-using RevitQualityChecker.Core.Engine;
-using RevitQualityChecker.Core.Models;
-using RevitQualityChecker.Core.Rules;
+using BIMQualityChecker.Core.Engine;
+using BIMQualityChecker.Core.Models;
+using BIMQualityChecker.Core.Rules;
 using Xunit;
 
-namespace RevitQualityChecker.Core.Tests.Engine
+namespace BIMQualityChecker.Core.Tests.Engine
 {
     public class RuleEngineTests
     {

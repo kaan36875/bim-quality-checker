@@ -2,7 +2,7 @@ using System;
 using System.Reflection;
 using Autodesk.Revit.UI;
 
-namespace RevitQualityChecker.RevitAdapter
+namespace BIMQualityChecker.RevitAdapter
 {
     public class QualityCheckerApp : IExternalApplication
     {
@@ -15,7 +15,7 @@ namespace RevitQualityChecker.RevitAdapter
 
             var assemblyPath = Assembly.GetExecutingAssembly().Location;
 
-            var helpUrl = new ContextualHelp(ContextualHelpType.Url, "https://github.com/kaan36875/revit-quality-checker");
+            var helpUrl = new ContextualHelp(ContextualHelpType.Url, "https://github.com/kaan36875/bim-quality-checker");
 
             var checkButton = new PushButtonData(
                 "CheckModel",
@@ -49,7 +49,7 @@ namespace RevitQualityChecker.RevitAdapter
                 assemblyPath,
                 typeof(AboutCommand).FullName)
             {
-                ToolTip = "About Revit Quality Checker",
+                ToolTip = "About BIM Quality Checker",
                 LongDescription = "View version information, author details, and supported Revit versions.",
                 LargeImage = RibbonIcons.CreateAboutIcon(32),
                 Image = RibbonIcons.CreateAboutIcon(16)

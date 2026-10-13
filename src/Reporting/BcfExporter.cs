@@ -4,9 +4,9 @@ using System.IO.Compression;
 using System.Linq;
 using System.Text;
 using System.Xml;
-using RevitQualityChecker.Core.Models;
+using BIMQualityChecker.Core.Models;
 
-namespace RevitQualityChecker.Reporting
+namespace BIMQualityChecker.Reporting
 {
     public class BcfExporter
     {
@@ -86,7 +86,7 @@ namespace RevitQualityChecker.Reporting
             writer.WriteElementString("Description", BuildDescription(rule, violation));
             writer.WriteElementString("Priority", SeverityToPriority(rule.Severity));
             writer.WriteElementString("CreationDate", DateTime.UtcNow.ToString("o"));
-            writer.WriteElementString("CreationAuthor", "RevitQualityChecker");
+            writer.WriteElementString("CreationAuthor", "BIMQualityChecker");
             writer.WriteElementString("ModifiedDate", DateTime.UtcNow.ToString("o"));
 
             writer.WriteEndElement(); // Topic
@@ -96,7 +96,7 @@ namespace RevitQualityChecker.Reporting
                 writer.WriteStartElement("Comment");
                 writer.WriteAttributeString("Guid", Guid.NewGuid().ToString());
                 writer.WriteElementString("Date", DateTime.UtcNow.ToString("o"));
-                writer.WriteElementString("Author", "RevitQualityChecker");
+                writer.WriteElementString("Author", "BIMQualityChecker");
                 writer.WriteElementString("Comment", $"Suggested fix: {violation.SuggestedFix}");
                 writer.WriteEndElement();
             }

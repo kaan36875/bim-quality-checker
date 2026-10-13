@@ -4,8 +4,8 @@ param(
 
 $ErrorActionPreference = "Stop"
 $root = Split-Path $PSScriptRoot -Parent
-$project = "$root\src\RevitAdapter\RevitQualityChecker.RevitAdapter.csproj"
-$bundleName = "RevitQualityChecker.bundle"
+$project = "$root\src\RevitAdapter\BIMQualityChecker.RevitAdapter.csproj"
+$bundleName = "BIMQualityChecker.bundle"
 $outputDir = "$PSScriptRoot\output"
 $bundleDir = "$outputDir\$bundleName"
 $contentsDir = "$bundleDir\Contents"
@@ -21,12 +21,12 @@ New-Item -ItemType Directory -Path $contentsDir -Force | Out-Null
 New-Item -ItemType Directory -Path "$contentsDir\rules" -Force | Out-Null
 
 Copy-Item "$PSScriptRoot\PackageContents.xml" "$bundleDir\"
-Copy-Item "$PSScriptRoot\Contents\RevitQualityChecker.addin" "$contentsDir\"
+Copy-Item "$PSScriptRoot\Contents\BIMQualityChecker.addin" "$contentsDir\"
 
 $dlls = @(
-    "RevitQualityChecker.RevitAdapter.dll",
-    "RevitQualityChecker.Core.dll",
-    "RevitQualityChecker.Reporting.dll",
+    "BIMQualityChecker.RevitAdapter.dll",
+    "BIMQualityChecker.Core.dll",
+    "BIMQualityChecker.Reporting.dll",
     "Newtonsoft.Json.dll"
 )
 foreach ($dll in $dlls) {
@@ -35,7 +35,7 @@ foreach ($dll in $dlls) {
 
 Copy-Item "$buildOutput\rules\default-rules.json" "$contentsDir\rules\"
 
-$zipPath = "$outputDir\RevitQualityChecker.bundle.zip"
+$zipPath = "$outputDir\BIMQualityChecker.bundle.zip"
 if (Test-Path $zipPath) { Remove-Item $zipPath -Force }
 Compress-Archive -Path $bundleDir -DestinationPath $zipPath
 

@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using RevitQualityChecker.Core.Models;
+using BIMQualityChecker.Core.Models;
 
-namespace RevitQualityChecker.Core.Rules
+namespace BIMQualityChecker.Core.Rules
 {
     public class NamingRule : IRule
     {

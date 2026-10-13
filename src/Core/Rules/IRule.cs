@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using RevitQualityChecker.Core.Models;
+using BIMQualityChecker.Core.Models;
 
-namespace RevitQualityChecker.Core.Rules
+namespace BIMQualityChecker.Core.Rules
 {
     public interface IRule
     {

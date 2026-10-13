@@ -1,9 +1,9 @@
 using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
-using RevitQualityChecker.RevitAdapter.Views;
+using BIMQualityChecker.RevitAdapter.Views;
 
-namespace RevitQualityChecker.RevitAdapter
+namespace BIMQualityChecker.RevitAdapter
 {
     [Transaction(TransactionMode.Manual)]
     public class AboutCommand : IExternalCommand

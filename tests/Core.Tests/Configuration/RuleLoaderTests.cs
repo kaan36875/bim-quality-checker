@@ -1,8 +1,8 @@
 using System;
-using RevitQualityChecker.Core.Configuration;
+using BIMQualityChecker.Core.Configuration;
 using Xunit;
 
-namespace RevitQualityChecker.Core.Tests.Configuration
+namespace BIMQualityChecker.Core.Tests.Configuration
 {
     public class RuleLoaderTests
     {
@@ -113,7 +113,7 @@ namespace RevitQualityChecker.Core.Tests.Configuration
 
             Assert.Single(rules);
             Assert.Equal("HLT-001", rules[0].Id);
-            Assert.IsType<RevitQualityChecker.Core.Rules.DuplicateNameRule>(rules[0]);
+            Assert.IsType<BIMQualityChecker.Core.Rules.DuplicateNameRule>(rules[0]);
         }
 
         [Fact]
@@ -130,7 +130,7 @@ namespace RevitQualityChecker.Core.Tests.Configuration
 
             Assert.Single(rules);
             Assert.Equal("HLT-003", rules[0].Id);
-            Assert.IsType<RevitQualityChecker.Core.Rules.DuplicateParameterRule>(rules[0]);
+            Assert.IsType<BIMQualityChecker.Core.Rules.DuplicateParameterRule>(rules[0]);
         }
 
         [Fact]
@@ -147,7 +147,7 @@ namespace RevitQualityChecker.Core.Tests.Configuration
 
             Assert.Single(rules);
             Assert.Equal("HLT-002", rules[0].Id);
-            Assert.IsType<RevitQualityChecker.Core.Rules.UnplacedRoomRule>(rules[0]);
+            Assert.IsType<BIMQualityChecker.Core.Rules.UnplacedRoomRule>(rules[0]);
         }
     }
 }

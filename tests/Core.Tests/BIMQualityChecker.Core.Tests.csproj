@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Core\RevitQualityChecker.Core.csproj" />
+    <ProjectReference Include="..\..\src\Core\BIMQualityChecker.Core.csproj" />
   </ItemGroup>
 
 </Project>

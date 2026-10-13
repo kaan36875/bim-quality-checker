@@ -1,6 +1,6 @@
-using RevitQualityChecker.Core.Models;
+using BIMQualityChecker.Core.Models;
 
-namespace RevitQualityChecker.RevitAdapter.ViewModels
+namespace BIMQualityChecker.RevitAdapter.ViewModels
 {
     public class ViolationViewModel
     {

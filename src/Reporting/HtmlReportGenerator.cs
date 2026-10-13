@@ -1,8 +1,8 @@
 using System.Linq;
 using System.Text;
-using RevitQualityChecker.Core.Models;
+using BIMQualityChecker.Core.Models;
 
-namespace RevitQualityChecker.Reporting
+namespace BIMQualityChecker.Reporting
 {
     public class HtmlReportGenerator
     {

@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using RevitQualityChecker.Core.Models;
-using RevitQualityChecker.Core.Rules;
+using BIMQualityChecker.Core.Models;
+using BIMQualityChecker.Core.Rules;
 
-namespace RevitQualityChecker.Core.Engine
+namespace BIMQualityChecker.Core.Engine
 {
     public class RuleEngine
     {

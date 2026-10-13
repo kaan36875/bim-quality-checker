@@ -3,7 +3,7 @@
   SchemaVersion="1.0"
   AppVersion="1.0.0"
   ProductCode="{7B3A8F2E-1D4C-4E5F-9A6B-0C8D7E2F3A1B}"
-  Name="Revit Quality Checker"
+  Name="BIM Quality Checker"
   Description="BIM model quality checker with configurable rules, scoring, and HTML reports."
   Author="Kaan Beyazkilic"
   AutodeskProduct="Revit"
@@ -12,15 +12,15 @@
   <CompanyDetails
     Name="Kaan Beyazkilic"
     Email="kaanbeyazkilic@gmail.com"
-    Url="https://github.com/kaan36875/revit-quality-checker" />
+    Url="https://github.com/kaan36875/bim-quality-checker" />
 
   <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2027" SeriesMax="R2027" />
 
   <Components Description="Revit 2027">
     <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2027" SeriesMax="R2027" />
-    <ComponentEntry AppName="RevitQualityChecker"
+    <ComponentEntry AppName="BIMQualityChecker"
                     Version="1.0.0"
-                    ModuleName="./Contents/RevitQualityChecker.addin"
+                    ModuleName="./Contents/BIMQualityChecker.addin"
                     AppDescription="BIM model quality checker"
                     LoadOnRevitStartup="True" />
   </Components>

@@ -1,7 +1,7 @@
 using System.Windows;
 using System.Windows.Navigation;
 
-namespace RevitQualityChecker.RevitAdapter.Views
+namespace BIMQualityChecker.RevitAdapter.Views
 {
     public partial class AboutWindow : Window
     {

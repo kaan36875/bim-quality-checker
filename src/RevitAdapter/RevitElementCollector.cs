@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.DB.Architecture;
-using RevitQualityChecker.Core.Models;
-using RevitQualityChecker.RevitAdapter.Compat;
+using BIMQualityChecker.Core.Models;
+using BIMQualityChecker.RevitAdapter.Compat;
 
-namespace RevitQualityChecker.RevitAdapter
+namespace BIMQualityChecker.RevitAdapter
 {
     public class RevitElementCollector
     {

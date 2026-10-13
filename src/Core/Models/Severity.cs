@@ -1,4 +1,4 @@
-namespace RevitQualityChecker.Core.Models
+namespace BIMQualityChecker.Core.Models
 {
     public enum Severity
     {

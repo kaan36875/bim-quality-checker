@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
-using RevitQualityChecker.Core.Models;
-using RevitQualityChecker.Core.Rules;
+using BIMQualityChecker.Core.Models;
+using BIMQualityChecker.Core.Rules;
 
-namespace RevitQualityChecker.Core.Configuration
+namespace BIMQualityChecker.Core.Configuration
 {
     public class RuleLoader
     {

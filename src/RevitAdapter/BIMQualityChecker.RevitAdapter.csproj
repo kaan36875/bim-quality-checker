@@ -18,15 +18,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Core\RevitQualityChecker.Core.csproj" />
-    <ProjectReference Include="..\Reporting\RevitQualityChecker.Reporting.csproj" />
+    <ProjectReference Include="..\Core\BIMQualityChecker.Core.csproj" />
+    <ProjectReference Include="..\Reporting\BIMQualityChecker.Reporting.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="..\..\rules\default-rules.json" Link="rules\default-rules.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="RevitQualityChecker.addin">
+    <None Include="BIMQualityChecker.addin">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
@@ -34,15 +34,15 @@
   <Target Name="CopyToRevitAddins" AfterTargets="Build" Condition="'$(Configuration)' == 'Debug'">
     <PropertyGroup>
       <RevitAddinsFolder>$(AppData)\Autodesk\Revit\Addins\2027</RevitAddinsFolder>
-      <PluginFolder>$(RevitAddinsFolder)\RevitQualityChecker</PluginFolder>
+      <PluginFolder>$(RevitAddinsFolder)\BIMQualityChecker</PluginFolder>
     </PropertyGroup>
     <MakeDir Directories="$(PluginFolder)\rules" />
     <Copy SourceFiles="$(TargetDir)$(TargetFileName)" DestinationFolder="$(PluginFolder)" />
-    <Copy SourceFiles="$(TargetDir)RevitQualityChecker.Core.dll" DestinationFolder="$(PluginFolder)" />
-    <Copy SourceFiles="$(TargetDir)RevitQualityChecker.Reporting.dll" DestinationFolder="$(PluginFolder)" />
+    <Copy SourceFiles="$(TargetDir)BIMQualityChecker.Core.dll" DestinationFolder="$(PluginFolder)" />
+    <Copy SourceFiles="$(TargetDir)BIMQualityChecker.Reporting.dll" DestinationFolder="$(PluginFolder)" />
     <Copy SourceFiles="$(TargetDir)Newtonsoft.Json.dll" DestinationFolder="$(PluginFolder)" />
     <Copy SourceFiles="$(TargetDir)rules\default-rules.json" DestinationFolder="$(PluginFolder)\rules" />
-    <Copy SourceFiles="$(TargetDir)RevitQualityChecker.addin" DestinationFolder="$(RevitAddinsFolder)" />
+    <Copy SourceFiles="$(TargetDir)BIMQualityChecker.addin" DestinationFolder="$(RevitAddinsFolder)" />
   </Target>
 
 </Project>

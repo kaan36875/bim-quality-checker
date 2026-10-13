@@ -1,6 +1,6 @@
 using System.Windows;
 
-namespace RevitQualityChecker.RevitAdapter.Views
+namespace BIMQualityChecker.RevitAdapter.Views
 {
     public partial class ProgressWindow : Window
     {

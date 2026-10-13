@@ -48,7 +48,7 @@ def main():
         forms.alert("Error loading rules:\n{}".format(str(e)), exitscript=True)
         return
 
-    output.print_md("## RevitQualityChecker")
+    output.print_md("## BIMQualityChecker")
     output.print_md("**Revit:** {}".format(REVIT_VERSION))
     output.print_md("**Model:** {}".format(model_name))
     output.print_md("**Rules:** {} loaded from `{}`".format(len(rules), os.path.basename(rules_path)))

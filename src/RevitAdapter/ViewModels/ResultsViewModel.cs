@@ -4,10 +4,10 @@ using System.IO;
 using System.Linq;
 using System.Windows.Input;
 using System.Windows.Media;
-using RevitQualityChecker.Core.Models;
-using RevitQualityChecker.Reporting;
+using BIMQualityChecker.Core.Models;
+using BIMQualityChecker.Reporting;
 
-namespace RevitQualityChecker.RevitAdapter.ViewModels
+namespace BIMQualityChecker.RevitAdapter.ViewModels
 {
     public class ResultsViewModel
     {

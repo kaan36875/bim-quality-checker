@@ -5,12 +5,12 @@ using System.Reflection;
 using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
-using RevitQualityChecker.Core.Configuration;
-using RevitQualityChecker.Core.Engine;
-using RevitQualityChecker.RevitAdapter.ViewModels;
-using RevitQualityChecker.RevitAdapter.Views;
+using BIMQualityChecker.Core.Configuration;
+using BIMQualityChecker.Core.Engine;
+using BIMQualityChecker.RevitAdapter.ViewModels;
+using BIMQualityChecker.RevitAdapter.Views;
 
-namespace RevitQualityChecker.RevitAdapter
+namespace BIMQualityChecker.RevitAdapter
 {
     [Transaction(TransactionMode.Manual)]
     public class QualityCheckerCommand : IExternalCommand

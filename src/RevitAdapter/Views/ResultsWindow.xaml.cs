@@ -5,10 +5,10 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
-using RevitQualityChecker.RevitAdapter.Compat;
-using RevitQualityChecker.RevitAdapter.ViewModels;
+using BIMQualityChecker.RevitAdapter.Compat;
+using BIMQualityChecker.RevitAdapter.ViewModels;
 
-namespace RevitQualityChecker.RevitAdapter.Views
+namespace BIMQualityChecker.RevitAdapter.Views
 {
     public partial class ResultsWindow : Window
     {

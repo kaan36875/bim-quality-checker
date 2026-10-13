@@ -1,7 +1,7 @@
 using System;
 using System.Windows.Input;
 
-namespace RevitQualityChecker.RevitAdapter.ViewModels
+namespace BIMQualityChecker.RevitAdapter.ViewModels
 {
     public class RelayCommand : ICommand
     {

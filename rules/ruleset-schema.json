@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "RevitQualityChecker Rule Set",
+  "title": "BIMQualityChecker Rule Set",
   "description": "Schema for defining BIM model quality check rules",
   "type": "object",
   "required": ["name", "rules"],

@@ -1,9 +1,9 @@
 using System.Collections.Generic;
-using RevitQualityChecker.Core.Models;
-using RevitQualityChecker.Core.Rules;
+using BIMQualityChecker.Core.Models;
+using BIMQualityChecker.Core.Rules;
 using Xunit;
 
-namespace RevitQualityChecker.Core.Tests.Rules
+namespace BIMQualityChecker.Core.Tests.Rules
 {
     public class DuplicateNameRuleTests
     {
