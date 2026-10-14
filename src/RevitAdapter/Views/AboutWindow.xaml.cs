@@ -8,6 +8,7 @@ namespace BIMQualityChecker.RevitAdapter.Views
         public AboutWindow()
         {
             InitializeComponent();
+            Icon = RibbonIcons.CreateCheckIcon(32);
         }
 
         private void CloseButton_Click(object sender, RoutedEventArgs e)

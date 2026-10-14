@@ -8,6 +8,7 @@ namespace BIMQualityChecker.RevitAdapter.Views
         public SettingsWindow(SettingsViewModel viewModel)
         {
             InitializeComponent();
+            Icon = RibbonIcons.CreateCheckIcon(32);
             DataContext = viewModel;
             viewModel.CloseRequested += Close;
         }

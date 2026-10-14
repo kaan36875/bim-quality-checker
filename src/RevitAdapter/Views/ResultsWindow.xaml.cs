@@ -17,6 +17,7 @@ namespace BIMQualityChecker.RevitAdapter.Views
         public ResultsWindow(ResultsViewModel viewModel, UIDocument uiDoc)
         {
             InitializeComponent();
+            Icon = RibbonIcons.CreateCheckIcon(32);
             DataContext = viewModel;
             _uiDoc = uiDoc;
 

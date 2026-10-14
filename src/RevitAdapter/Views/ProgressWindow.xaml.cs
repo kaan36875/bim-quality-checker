@@ -7,6 +7,7 @@ namespace BIMQualityChecker.RevitAdapter.Views
         public ProgressWindow()
         {
             InitializeComponent();
+            Icon = RibbonIcons.CreateCheckIcon(32);
         }
 
         public void UpdateStatus(string status, string detail = null)
