@@ -5,7 +5,7 @@ Automated BIM model quality checker plugin for Autodesk Revit. Validates models 
 Available on the [Autodesk App Store](#) | [Privacy Policy](PRIVACY.md)
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=dBws_4v6m7E">Video Demo</a>
+  <a href="https://www.youtube.com/watch?v=h9fmKbpp0HE">Video Demo</a>
 </p>
 
 <p align="center">
